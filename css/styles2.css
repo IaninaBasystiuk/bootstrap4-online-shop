@@ -1,0 +1,96 @@
+        
+        body{
+            
+            font-size: 1em;
+        }
+        
+        
+        .inputstyle{
+            
+            border: 1px solid black;
+            border-radius: 10px;
+            
+        }
+        
+        .btnstyle {
+            background-color: white;
+            border: 1px solid white;
+            border-radius: 10px;
+         
+        }
+        
+       .link_black{
+            color: black;
+        }
+        
+        
+        
+        .principalMenu{
+            
+            background-color: azure; /*change here colour!!!!*/
+           
+        }
+        
+        .mainMenu{
+            
+            font-size: 1.3em;
+        }
+        
+        .logomy{
+            width: 12%;
+            position: absolute;
+            left: 3%;
+            top: 4%;
+            
+            
+        }
+        
+        /*body content here*/
+        
+        img { 
+            
+            width: 100%;
+            margin: .8em;
+            
+        
+        }
+        
+        .animation{
+            
+            transition: 1.3s ;
+            
+        }
+        
+        .animation:hover{
+            
+            transform: scale(1.05,1.05);
+            
+            border: 1px solid white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        
+        footer{
+            
+            background-color: azure; /*change here colour!!!!*/
+            margin-top: 2em;
+            padding-top: 2em;
+            
+        }
+        
+        .contentbtn{
+            
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: transparent;
+        }
+        
+        .social{
+            
+             border-top: 1px solid black;
+        }
+        
+        
+        
+      
+        

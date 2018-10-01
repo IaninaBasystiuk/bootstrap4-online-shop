@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="keywords" content="women, men, fasion, shopping, online-shopping, clothes">
+  <meta name="description" content="Online clothing store">
+  <meta name="author" content="Basystiuk Ianina">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Bootstrap 4 index</title>
+   
+</head>
+<body>
+
+<div class="container mt-4"> <!--secondary menu -->
+    
+    
+    
+    <nav class="nav justify-content-end">
+        
+        <!--se connecter modal -->
+         <li class="nav-item" data-toggle="modal" data-target="#headerModal">
+                <a class="nav-link link_black" href="#">Se connecter</a>
+         </li>
+        
+            <div class="modal fade" id="headerModal" tabindex="-1" role="dialog" aria-labelledby="headerModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="headerModalLabel">Rentrez votre vos donees:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="recipient-name" class="form-control-label">Nom d'utilisater:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="form-group">
+                        <label for="recipient-name" class="form-control-label">Mot de passe:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    
+                    <button type="button" class="btn btn-secondary">Rentrer</button>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- END se connecter modal -->
+        
+        
+        <form class="form-inline formMenu">
+            <div class="input-group inputstyle">
+
+                <input type="text" class="form-control" aria-describedby="basic-addon1">
+                <button class="btn btn-sm align-middle border-0 btnstyle" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                
+            </div>
+        </form>
+        <i class="fa fa-shopping-bag fa-2x ml-2" aria-hidden="true"></i>
+        
+        
+    </nav>
+
+ 
+</div><!-- END content container with secondary menu-->
+ 
+    
+    
+    
+<!--principal menu out of container-->
+<ul class="nav nav-justified mt-5 mb-5 principalMenu">
+    
+   
+  <a class="navbar-brand nav-item logo" href="index.html"><img src="images/logo_love.png" class="logomy"></a>
+        
+  <li class="nav-item dropdown">
+    <a class="nav-link link_black dropdown-toggle mainMenu" href="women.html" data-toggle="dropdown">Femmes</a>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="femmes">
+    <a class="dropdown-item" href="women.html">Nouveautés</a>
+    <a class="dropdown-item" href="#">Haute</a>
+    <a class="dropdown-item" href="#">Bas</a>
+    <a class="dropdown-item" href="#">Accessoires</a>
+    </div>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link link_black dropdown-toggle mainMenu" href="men.html" data-toggle="dropdown">Hommes</a>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="hommes">
+    <a class="dropdown-item" href="men.html">Nouveautés</a>
+    <a class="dropdown-item" href="#">Haute</a>
+    <a class="dropdown-item" href="#">Bas</a>
+    <a class="dropdown-item" href="#">Accessoires</a>
+    </div>
+    
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link link_black dropdown-toggle mainMenu" href="#" data-toggle="dropdown">Enfants</a>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="enfants">
+    <h5 class="dropdown-header">Fillettes</h5>
+    <a class="dropdown-item" href="men.html">Nouveautés</a>
+    <a class="dropdown-item" href="#">Haute</a>
+    <a class="dropdown-item" href="#">Bas</a>
+    <a class="dropdown-item" href="#">Accessoires</a>
+    <h5 class="dropdown-header">Garçons</h5>
+    <a class="dropdown-item" href="men.html">Nouveautés</a>
+    <a class="dropdown-item" href="#">Haute</a>
+    <a class="dropdown-item" href="#">Bas</a>
+    <a class="dropdown-item" href="#">Accessoires</a>
+    </div>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link link_black dropdown-toggle mainMenu" href="#" data-toggle="dropdown">Soldes</a>
+      
+     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="soldes">
+    <a class="dropdown-item" href="men.html">Femmes</a>
+    <a class="dropdown-item" href="#">Hommes</a>
+    <a class="dropdown-item" href="#">Enfants</a>
+    
+     </div>  
+  </li>
+    
+</ul><!-- END principal menu out of container -->
+    
+    
+    
+    <div class="container"><!--content with photos inside new container -->
+        <div class="row photo_box">
+            
+            <div class="col-md-9  container_relative">
+                <img class="under" src="images/model_woman1.jpg">
+                <img class="over" src="images/model2_woman.jpg">
+            </div>    
+            
+            <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                <h5>NOUVEAUTÉS</h5> 
+                <h5>FEMMES</h5>
+                 <a href="women.html" class="btn btn-secondary contentbtn" role="button" aria-pressed="true">MAGASINER</a>
+            </div>
+            
+        </div>
+    </div><!-- END content with photos inside new container-->   
+    
+     <div class="container"><!--content with photos inside new container !!!-->
+        <div class="row photo_box">
+            
+            <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                <h5>NOUVEAUTÉS</h5> 
+                <h5>HOMMES</h5>
+                 <a href="men.html" class="btn btn-secondary contentbtn" role="button" aria-pressed="true">MAGASINER</a>
+            </div>
+            
+            <div class="col-md-9  container_relative">
+                <img class="under_men" src="images/model_man3.jpg">
+                <img class="over_men" src="images/model_man2.jpg">
+            </div>    
+            
+            
+            
+        </div>
+    </div><!-- END content with photos inside new container-->  
+    
+      <footer>
+        <div class="container">
+          <div class="row">
+           <div class="col-md-3 hidden-sm-down d-flex flex-column align-items-center">
+             <div class="d-flex flex-column align-items-start"> 
+                   <h6>Informations d’entreprise</h6>
+                   <a href="#" class="link_black">A propos nous</a>
+                   <a href="#" class="link_black">Presse</a>
+                   <a href="#" class="link_black">Carrière</a>
+             </div>
+           </div>
+           
+           <div class="col-md-3 hidden-sm-down d-flex flex-column align-items-center">
+               
+               <div class="d-flex flex-column align-items-start">
+                   <h6>Magasins</h6>
+                   <a href="#" class="link_black">Montréal</a>
+                   <a href="#" class="link_black">Toronto</a>
+                   <a href="#" class="link_black">Vancouver</a>
+               </div>
+               
+           </div>
+           
+           <div class="col-md-3 hidden-sm-down d-flex flex-column align-items-center">
+               
+              <a href="#" class="link_black"><h6>Service Clients</h6></a>
+               
+           
+           </div>
+           
+            <div class="col-md-3 hidden-sm-down d-flex flex-column align-items-center">
+               
+               <h6>S’abonner à la newsletter</h6>
+               <button class="btn btn-secondary contentbtn">S’ABONNER</button>
+              
+           
+           </div>
+           
+           <div class="col-md-12 mt-5 social">
+               
+               <div class=" col-md-12 d-flex justify-content-between mt-3">
+               <i class="fa fa-pinterest-square fa-3x" aria-hidden="true"></i>
+               <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+               <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
+               <i class="fa fa-youtube-square fa-3x" aria-hidden="true"></i>
+               </div>
+               
+               
+           </div>
+           
+           </div>
+           
+        
+       </div>
+    </footer>
+           
+        
+     
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+    
+
+</body>
+</html>
